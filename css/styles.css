@@ -1,0 +1,67 @@
+* { margin: 0; padding: 0; }
+html {
+	height: auto;
+	width: auto;
+}
+body {
+	height: 100%;
+	margin: 0 auto;
+	width: 95%;
+}
+.form {
+	background-color: rgb(255,255,255);
+	border: 1px solid #e4e5e5;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 0 0 5px grey;
+	height: auto;
+	margin: 25px auto;
+	width: 65%;
+}
+.form .title-bg {
+	background: -moz-linear-gradient(rgba(205,205,205,.8) 20%, rgba(255,255,255,.1));
+	border: 1px solid rgb(200,200,200);
+	border-radius: 10px 10px 0 0;
+	height: 55px;
+	margin: 1px 2px;
+	width: auto;
+ }
+.form .title-bg .title {
+	color: rgb(155,155,155);
+	font-size: 40px;
+	font-weight: bold;
+	padding: 3px 0 0 0;
+	text-align: center;
+}
+.form .list-box {
+	margin: 5px auto;
+	width: 300px;
+}
+.form .list-box ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.form .list-box li {
+	border-bottom: 1px solid #ccc;
+	font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+.form .list-box li:last-child {
+	border: none;
+}
+.form .list-box li a {
+	color: #b40000;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
+
+	transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	/*-ms-transition: font-size 0.3s ease, background-color 0.3s ease;*/
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+.form .list-box li a:hover {
+	background: #f6f6f6;
+	font-size: 30px;
+}
